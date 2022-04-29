@@ -1,0 +1,133 @@
+<DOCTYPE HTML> 
+<html> 
+    <head> 
+        <title> UniFriend</title>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@700&family=Varela+Round&family=Vollkorn&display=swap" rel="stylesheet">
+        <script src="p5/p5.js"></script>
+      </head>
+
+
+    <body style="background-color:#f8f9fb"> 
+      <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <h4 class="text-white"> <a href="index.html" style="color: #f7b100">Home </a></h4>
+            <h4 class="text-white"> <a href="about.html" style="color: #f7b100">About </a></h4>
+            <h4 class="text-white"> <a href="Fun-page.html" style="color: #f7b100">Let's play </a></h4>
+            <h4 class="text-white"> <a href="Organizing-page.html" style="color: #f7b100">Let's organize </a></h4>
+            <span class="text-muted">Navigate Unifriend.</span> 
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <p style="color: white"> Unifriend</p>
+        </nav>
+      </div>
+
+
+      <div class="page-content">
+        <img src="wallpaper_2.jpg"  alt="unifriend" class="wallpaper">
+        <!--<img src="assets/student_struggling.jpg"  alt="student" style="margin-left: 40%; width:40%"> -->
+         <!-- old image was called wallpaper.jpg-->
+         <p class="top-text"> WELCOME TO YOUR <br> PERSONAL UNI ASSISTANT <br>
+         </p>
+         <p class="sub-text"> 
+          <b>  Organise your events. Make plans. Make lists. Want a study break? Play a game! </b> </p>
+         <p class="bold-sub-text">  All in one place. 
+            </p>
+            
+          <img src="assets/line.png" style="width: 100%; height: 20%; margin-top: -7%"> 
+          
+          <h1 style="margin-top: 20%"> Unifriend. </h1>
+          
+          <p class="blink-line" style="margin-left: 42%; margin-bottom: 20%"> | </p>
+          <div class="main-text">
+          <img src="assets/student-books-2.jpg" class="student_bg"> 
+          <h3 style="color: white; font-weight: 800; font-size: 27px"> GETTING YOU THROUGH DAILY LIFE AS A STUDENT </h3>
+          <ul> <li>  🗨️ <b> Organise your schedule </b> </li> 
+                <li> 🗨️ <b> Make lists and planners </b> </li> 
+                <li> 🗨️ <b> Create events  </b></li> 
+               <li> 👁️‍🗨️ <b> See things to do when you need a break from studying </b></li>
+               </ul>
+          <p style="font-size: 30px; margin-left: 2%; color: white; font-weight: 800"> Scroll below to start!</p>
+               <br> <br> 
+               </div>
+               <br> <br> <br>
+          <h2 style="margin-top: -20%"> What would you like to do today? </h2> 
+          
+      </div>
+
+      <!-- FLIP CARD-->
+
+  <div class="row" id="skip">
+    <div class="left">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h1> LET'S PLAY</h1>
+            <img src="assets/emoji-party.png"> 
+          </div>
+          <div class="flip-card-back">
+            <p>I am taking a study break and want to do something interesting</p>
+            <button> <a href="Fun-page.html"> Show me! </a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h1> LET'S ORGANISE </h1>
+            <img src="assets/books-icon.png" style="width:60%; height:60%; margin-top:1em"> 
+          </div>
+          <div class="flip-card-back">
+            <p>I just want to plan my day and my tasks</p>
+            <button> <a href="Organizing-page.html">Take me there </a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+      <br> <br> 
+      <!-- <a href="http://localhost/phplogin/register.html" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Register</a>
+      <a href="http://localhost/phplogin/login.html" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Login</a>
+      -->
+      <!-- CARD CONTENT-->
+
+
+      <!-- <div class="card mb-3"> 
+        <img src="unifriend-notebook-and-pen.png" class="card-img-top w-80" alt="..."> old image was called wallpaper.jpg
+        <p> How are you feeling today?</p>
+        
+        <div class="card-body">
+          <h5 class="card-title">UniFriend is here to support you through everyday life</h5>
+          <a href="http://localhost/phplogin/register.html" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Register</a>
+          <a href="http://localhost/phplogin/login.html" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Login</a>
+          <p class="card-text">There are many things you can do with UniFriend. Here are something you can start on:
+          </p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div> -->
+
+      
+
+      
+
+    </body>
+
+  

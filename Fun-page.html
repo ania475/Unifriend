@@ -1,0 +1,264 @@
+<DOCTYPE HTML> 
+    <html> 
+        <head> 
+            <title> UniFriend/Fun-Page</title>
+            <meta charset="utf-8">
+            <link href="style.css" rel="stylesheet" type="text/css">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@700&family=Varela+Round&family=Vollkorn&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+            <script src="p5/p5.js"></script> 
+            <script src="p5/addons/p5.sound.js"> </script>
+            <!--<script src="snowflakes.js"> </script>  -->
+            
+            <!--<script src="clock.js"> </script>  -->
+            
+            
+        </head>
+    
+    
+        <body style="background-image: url('fun-page-wallpaper.jpg');background-position: center;background-repeat: no-repeat; background-size: cover;"> 
+          <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="bg-dark p-4">
+                <h4 class="text-white"> <a href="index.html" style="color: #f7b100"> Home </a></h4>
+                <h4 class="text-white"> <a href="about.html" style="color: #f7b100">About </a></h4>
+                <h4 class="text-white"> <a href="Fun-page.html" style="color: #f7b100">Let's play </a></h4>
+            <h4 class="text-white"> <a href="Organizing-page.html" style="color: #f7b100">Let's organize </a></h4>
+                <span class="text-muted">Navigate Unifriend.</span>
+              </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <p style="color: white"> Unifriend</p>
+            </nav>
+          </div>
+          
+          <br> <br>
+          <div class="myCanvas" style="float:center">
+            
+          </div>
+
+          <div class="page-content">
+        
+            
+            <h1> Nice.</h1>
+            <p class="blink-line"style="margin-left:15%"> |</p>
+            <h2 class="boring-subheader"> You are in the right place</h2>
+            <button style="margin-top:-15%; margin-left: 45%" class="animated-button"> Scroll down </button>
+            <h2 style="margin-bottom:-5%; font-weight: 800; color: #5b6574"> TAKING A BREAK FROM STUDYING? <br> Choose one of the games below to unwind. </h2>
+
+
+            <div class="align">
+              <div class="card-container">  
+                <div class="card-vertical">
+                  <div class="card-front">
+                    <article class="card-front-content">
+                    <h1> Pixel Pool </h1>
+                    <img src="assets/pixelpool-icon.png" > 
+                    <article>
+                  </div>
+                  <div class="card-back">
+                    <article class="card-back-content">
+                      <h1>A great game to unwind</h1>
+                      <button class="flip-card-button"> <a href="PixelatedPool.html"> Play</a></button>
+                      
+                     <article>
+                  </div>
+                </div>
+              </div>
+              <div class="card-container">
+                  <div class="card-horizontal">
+                      <div class="card-front"> 
+                        <article class="card-front-content">
+                          <h1>Fruit Ninja</h1>
+                          <img src="assets/fruitninja-icon.png"> 
+                        <article>
+                      </div>
+                      <div class="card-back card-back-hr">
+                        <article class="card-back-content">
+                      <h1>Play this game to destress</h1>
+                    
+                      <button class="flip-card-button"> <a href="FruitNinja.html"> Play</a></button>
+                      
+                     <article>
+                      </div>
+                  </div>
+              </div>
+              
+              
+                <div class="card-container">  
+                <div class="card-vertical">
+                  <div class="card-front">
+                    <article class="card-front-content">
+                          <h1>Quash Board </h1>
+                          <img src="assets/quashboard-icon.png"> 
+                     <article>
+                  </div>
+                  <div class="card-back">
+                   <article class="card-back-content">
+                      <h1>A game to keep your mind challenged while on break</h1>
+                      
+                      <button class="flip-card-button"> <a href="QuashBoard.html"> Play</a></button>
+                     <article>
+                  </div>
+                </div>
+              </div>
+              <div class="card-container">
+                  <div class="card-horizontal">
+                      <div class="card-front"> 
+                        <article class="card-front-content">
+                          <h1>Pong</h1>
+                          <img src="assets/pong-icon.png"> 
+                        <article>
+                      </div>
+                      <div class="card-back card-back-hr">
+                         <article class="card-back-content">
+                      <h1>The perfect game that you can play with your study buddies while on break</h1>
+                      <button class="flip-card-button"> <a href="Pong.html"> Play</a> </button>
+                     <article>
+                      </div>
+                  </div>
+              </div>
+              
+              </div>
+                      
+            <!-- FLIP CARD
+
+            <div class="row" id="skip" style="column-gap:0px;">
+              <div class="left-pool">
+                <div class="flip-card-games">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front-pool">
+                      <h1> Pixel Pool</h1>
+                      <img src="assets/pixelpool-icon.png"> 
+                    </div>
+                    <div class="flip-card-back-pool">
+                      <p>A classic pool game, except that everything is pixelated </p>
+                      <button> <a href="PixelatedPool.html"> Click here to play and destress!</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="right-fruitninja">
+                <div class="flip-card-games">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front-fruitninja">
+                      <h1> Fruit Ninja </h1>
+                      <img src="assets/fruitninja-icon.png" style="width:60%; height:60%; margin-top:1em"> 
+                    </div>
+                    <div class="flip-card-back-fruitninja">
+                      <p>A relaxing game that is guaranteed to relieve you from stress.</p>
+                      <button> <a href="FruitNinja.html">Let's go </a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="right-quash">
+                <div class="flip-card-games" style="margin-left: 60%">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front-quash">
+                      <h1> Quash Board </h1>
+                      <img src="assets/fruitninja-icon.png" style="width:60%; height:60%; margin-top:1em"> 
+                    </div>
+                    <div class="flip-card-back-quash">
+                      <p>A puzzle game that will keep your mind challenged.</p>
+                      <button> <a href="QuashBoard.html">Take me there </a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="left">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <h1> Pong</h1>
+                      <img src="assets/pixelpool-icon.png"> 
+                    </div>
+                    <div class="flip-card-back">
+                      <p>The game that will involve your studdy buddies too. Because if you take a study break, so must them. </p>
+                      <button> <a href="PixelatedPool.html"> Click here to play and destress!</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="game-list">
+            <ol class="list"> 
+              <div class="pool">
+              <li> Pixel Pool </li>
+              <img src="assets/pixelpool-icon.png" style="margin-top: -8%"> 
+              <p style="margin-left:-1%; font-size: 20px"> "Pixel pool is a retro pixelated top down pool game." </p>
+              - <a href="https://play.idevgames.co.uk/game/pixel-pool" target="alt"> Source</a> <br>
+                <a href="PixelatedPool.html"> Click here to play and destress!</a> <br> <br> <br> <br>
+              </div>
+                
+              <div class="fruit-ninja">
+              <li> Fruit Ninja </li> 
+              <img src="assets/fruitninja-icon.png" style="margin-top: -8%">  <br> <br>
+                  <p style="margin-left:-1%; font-size: 20px"> A relaxing game that is guaranteed to relieve you from stress. </p>
+                  - <a href="https://play.idevgames.co.uk/game/fruit-ninja" target="alt"> Source</a> <br>
+                   <a href="FruitNinja.html"> Click here to play and destress!</a> <br> <br> <br> <br>
+              </div>
+
+              <div class="quash">
+              <li> Quash Board </li> 
+              <img src="assets/quashboard-icon.png" style="margin-top: -8%; height:27%; width: 33%">  <br> <br>
+                  <p style="margin-left:-1%; font-size: 20px"> A puzzle game that will keep your mind challenged </p>
+                  -<a href="https://play.idevgames.co.uk/game/quash-board" target="alt"> Source</a> <br>
+                    <a href="QuashBoard.html"> Click here to play and destress!</a> <br> <br> <br> <br>
+              </div>
+
+              <div class="pong">
+              <li> Multiplayer Pong </li> 
+              <img src="assets/pong-icon.png" style="margin-top: -8%; height:27%; width: 33%">  <br> <br>
+                  <p style="margin-left:-1%; font-size: 20px"> the classic Pong game that will involve your studdy buddies too. Because if you take a study break, so must them. </p>
+                  -<a href="https://play.idevgames.co.uk/game/pong" target="alt"> Source</a> <br>
+                    <a href="Pong.html"> Click here to play and destress!</a>
+              
+              </div>
+            </ol>
+            </div>
+          </div> -->
+            
+          
+          <!-- 
+          <div>
+            <img src="assets/pink_bell.png" class="myBell" onclick="soundPlay()">;
+            <script src="Doorbell.js"> </script>
+          </div> 
+          <div class="bell-text"> 
+            <img src="assets/arrow_white2.png">
+              <div class="text-box">
+                <p> Press me!</p> 
+              </div>
+          </div>
+          <div id="myDiv" style="display:none;" class="answer_list" >
+            WELCOME
+            <p>You are in the fun part of the website. <br> Scroll down to see where your path takes you.  </p>
+          </div>
+        -->
+        
+
+        <audio src="assets/fun-music.mp3" type="audio/mpeg" id="sound" loop="loop" autoplay="autoplay">
+        </audio>
+        <script>
+          var audio = document.getElementById("sound");
+          audio.volume = 0.2;
+        </script>
+      </body>
+    </html>
+
+
+
+          

@@ -1,0 +1,1267 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    
+    background-color: #f8f9fb;
+    margin: 0;
+    width: 100%;
+    cursor: url('res/cursor/pen.cur'),auto;
+}
+
+.ul-nav{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.fun-bcg {
+    background: linear-gradient(312deg, #fde5aa, #f8f9fb, #e2d0f7);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:47% 0%}
+    50%{background-position:54% 100%}
+    100%{background-position:47% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:47% 0%}
+    50%{background-position:54% 100%}
+    100%{background-position:47% 0%}
+}
+
+.header {
+    margin-top:-20% ;
+    
+}
+
+.page-content h1 {
+    /* unifriend */
+
+    text-align: center;
+    font-size: 200px;
+    color: #5b6574;
+    font-family: 'Gill Sans';
+
+}
+
+#unifriend-text-style {
+    text-align: center;
+    font-size: 200px;
+    color: #5b6574;
+    font-family: 'Gill Sans';
+    margin-top: 20%
+
+}
+
+footer {
+    margin-top: 10%;
+    background-color: #5b6574;
+    height: 12%;
+    margin-bottom: -10%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+#about-text {
+
+    text-align: center;
+    font-size: 200px;
+    color: #5b6574;
+    font-family: 'Gill Sans';
+    margin-top: 2em;
+
+}
+
+.page-content .boring-header {
+    /* welcome */
+
+    text-align: center;
+    font-size: 200px;
+    color: #5b6574;
+    font-family: 'Gill Sans';
+    margin-top: 2em;
+
+}
+
+.page-content .boring-subheader {
+    /*how are you feeling today */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #5b6574;
+    font-size: 40px;
+    padding-top: 2px;
+    position: relative;
+    bottom: 4em;
+
+
+}
+
+.page-content .fun-paragraph {
+    margin-top: 10%;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 10em;
+    text-indent: none;
+    width: 60%;
+    text-align: center;
+    font-size: 25px;
+    padding: 2px 2px 2px 2px;
+    border: solid #5b6574;
+    border-width: 2px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 18px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.page-content .books {
+    width: 60%;
+    height: 110%;
+    position: relative;
+    left: 20%;
+    border: solid #5b6574;
+    border-width: 5px;
+    border-radius: 1em;
+    box-shadow: 10px 5px 18px 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-content .btn {
+
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-right: 15px;
+    margin-top: -5%;
+
+}
+
+.page-content .buttons {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.page-content .blink-line {
+    /* blinking bar */
+    animation: blinker 1s linear infinite;
+    text-align: center;
+    font-size: 180px;
+    color: #5b6574;
+    font-family: 'Gill Sans';
+    margin-top: -19%;
+    margin-left: 53%;
+    margin-bottom: 180px;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.page-content p {
+    text-align: left;
+    font-size: 30px;
+    color: #5b6574;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2em;
+    text-indent: 1em;
+}
+
+.page-content .text {
+    text-align: left;
+    font-size: 30px;
+    color: #5b6574;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 17%;
+    text-indent: 1em;
+    border: solid rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 4px 5px 18px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    padding: 1em 1em 1em 1em;
+    margin-bottom: 2em;
+    margin-top: -10%;
+    background-color: white;
+}
+
+.page-content h2 {
+    /*what would you like to do today */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #08f700;
+    font-size: 40px;
+    padding-top: 30%;
+    padding-bottom: 10%;
+
+}
+
+.page-content h3 {
+    /*getting you through life as a student*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #5b6574;
+    font-size: 40px;
+    position: relative;
+    top: 10px;
+    /*box-shadow: 2px 4px 5px 18px rgba(0, 0, 0, 0.1);
+    transition-property: font-size, color, background;
+    transition-duration: 2s;
+    */
+    
+
+}
+
+
+/*
+.page-content h3:hover {
+    font-size: 50px;
+    color: #ed8505;
+    background: #4a4a54 radial-gradient(circle, transparent 1%, #2f3947 1%) center/15000%;
+    
+} */
+
+
+.page-content .wallpaper {
+
+    border-width: 20px;
+    margin-bottom: -10%;
+    width: 70%;
+    height: 115%;
+    float: right;
+    
+
+}
+
+
+
+.page-content .top-text {
+
+    float: left;
+    font-size: 40px;
+    stroke: #5b6574;
+    stroke-width: 3%;
+    color: #5b6574;
+    margin-top: -35%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    text-indent: 1%;
+    font-weight: 800;
+}
+
+.page-content .sub-text {
+
+    float: left;
+    font-size: 20px;
+    stroke: #5b6574;
+    stroke-width: 3%;
+    color: #5b6574;
+    margin-top: -27%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    font-weight: 100;
+    margin-left: 4.5%;
+
+}
+
+.page-content .bold-sub-text {
+
+    float: left;
+    font-size: 20px;
+    stroke: #5b6574;
+    stroke-width: 3%;
+    color: #5b6574;
+    margin-top: -25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    font-weight: 100;
+    margin-left: 4.5%;
+
+}
+
+.page-content .main-text {
+    background-color: #5b6574;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 26px 7px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 0px 0px 26px 7px rgba(0, 0, 0, 0.33);
+    box-shadow: 0px 0px 26px 7px rgba(0, 0, 0, 0.33);
+    /*-webkit-box-shadow: inset 0px 0px 26px -7px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 0px 26px -7px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 26px -7px rgba(255,255,255,1);*/
+    padding-top: 50px;
+
+}
+
+
+.page-content .student_bg {
+
+    margin-bottom: -20%;
+    width: 45%;
+    height: 63.5%;
+    float: right;
+    margin-top: -3.4%;
+}
+
+.page-content ul {
+    list-style-type: none;
+    text-indent: 10px;
+    margin-top: 5%;
+}
+
+.page-content ul li {
+    font-size: 27px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+
+}
+
+.page-content .pool {
+    background-color: grey;
+}
+
+.page-content .list {
+    margin-left: 5%;
+}
+
+.page-content ol {
+    text-indent: 20px;
+    margin-top: 5%;
+
+}
+
+.page-content ol li {
+    font-size: 40px;
+    color: #5b6574;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10%;
+
+}
+
+.page-content a {
+    margin-bottom: 30%;
+
+}
+
+
+.page-content .logo {
+    margin-left: 45%;
+    margin-bottom: 5px;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+}
+
+@keyframes logo {
+    0% {
+        margin-top: 0%;
+        margin-left: 45%;
+        transform: rotate(90deg)
+    }
+
+    25% {
+        margin-top: 0%;
+        margin-left: 60%;
+        transform: rotate(360deg)
+    }
+
+    50% {
+        margin-top: 0%;
+        margin-left: 25%;
+    }
+
+    75% {
+        margin-top: 0%;
+        margin-left: 45%
+    }
+
+    85% {
+        margin-top: -20%;
+        margin-left: 45%
+    }
+
+    100% {
+        margin-top: 0%;
+        margin-left: 45%
+    }
+}
+
+.page-content .game-list {
+    margin-left: 450px;
+}
+
+/* NEW FLIP CARD */
+
+.card-back .flip-card-button {
+    width: 120px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    color: white;
+    font-size: 40px
+}
+
+.card-front h1,
+.card-back h1 {
+    text-align: center;
+    font-size: 2em;
+    /*font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.card-front img {
+    width: 100%;
+    height: 50%;
+    margin-top: 10px;
+    border-radius: .12em;
+    box-shadow: 0 0 0 2px #fff;
+}
+
+.align {
+    padding-top: 20px;
+    width: 100%;
+    height: 580px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: space-around;
+
+}
+
+.card-container {
+    -webkit-perspective: 1200;
+    -moz-perspective: 1200;
+    perspective: 1200;
+}
+
+.card-vertical,
+.card-horizontal {
+    height: 280px;
+    width: 300px;
+    box-shadow: 0 6px 8px #bbb;
+    -moz-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+    transition: all 1s ease;
+}
+
+.card-front,
+.card-back {
+    color: #fafafa;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: #f7b100;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.card-back {
+    -moz-transform: rotateY(179.9deg);
+    -webkit-transform: rotateY(179.9deg);
+    transform: rotateY(179.9deg);
+    background: #f7b100;
+}
+
+.card-front-content,
+.card-back-content {
+    padding: 2em;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 2.6em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.card-back-hr {
+    -webkit-transform: rotateX(179.9deg);
+    -moz-transform: rotateX(179.9deg);
+    transform: rotateX(179.9deg);
+}
+
+.card-vertical:hover {
+    -webkit-transform: rotateY(179.9deg);
+    -moz-transform: rotateY(179.9deg);
+    transform: rotateY(179.9deg);
+}
+
+.card-horizontal:hover {
+    -webkit-transform: rotateX(179.9deg);
+    -moz-transform: rotateX(179.9deg);
+    transform: rotateX(179.9deg);
+}
+
+
+/* flip card HOME PAGE */
+
+.row {
+    margin-left: 50%;
+    column-gap: 50px;
+
+}
+
+.left {
+    margin-left: 450px;
+}
+
+
+/* The flip card container */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    /*border: 1px solid #f1f1f1;*/
+    perspective: 1000px;
+    /* 3D effect */
+
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+
+}
+
+/* horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+    border-radius: 10px 10px 10px;
+}
+
+/* front side */
+.left .flip-card-front {
+    background-color: #08f700;
+    color: black
+}
+
+/* front card image left card */
+.left .flip-card-front img {
+    height: 60%;
+    width: 40%;
+}
+
+/* front card image right card */
+.right .flip-card-front img {
+    height: 60%;
+    width: 40%;
+}
+
+.right .flip-card-front {
+    background-color: #5b6574;
+    color: white;
+}
+
+.left h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.right h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.right a {
+    color: lightslategray;
+}
+
+.left a {
+    color: #ed8505;
+}
+
+/* back side */
+.right .flip-card-back {
+    background-color: #b8b8b8;
+    color: black;
+    transform: rotateY(180deg);
+    font-family: 'Vollkorn', serif;
+    position: center;
+    padding-top: 3em;
+}
+
+.left .flip-card-back {
+    background-color: #f7b100;
+    color: white;
+    transform: rotateY(180deg);
+    font-family: 'Vollkorn', serif;
+    position: center;
+    padding-top: 3em;
+}
+
+/* ----chat page----- */
+.iframe-chat {
+    margin-left: 250px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border: solid rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 4px 5px 18px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    padding: 1em 1em 1em 1em;
+}
+
+.page-content .textbox {
+    border: solid rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 4px 5px 18px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    padding: 1em 1em 1em 1em;
+}
+
+.page-content .chat-page-header {
+    text-align: center;
+    margin-top: 10%;
+    width: 60%;
+    margin-left: 20%;
+    font-weight: 800;
+
+}
+
+.page-content .chat-page-subheader {
+    text-align: center;
+    margin-top: 2%;
+    width: 60%;
+    margin-left: 20%;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.page-content .chat-page-disclaimer {
+
+    margin-left: 23%;
+    margin-top: -1%;
+
+}
+
+/* BUBBLES FUN PAGE */ 
+
+.bubbles {
+    margin-bottom: -25%;
+}
+.black-bubble img {
+    width: 14%;
+    height: 20%;
+    animation-name: black-bubble;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-play-state: smooth;
+    cursor:grab;
+
+}
+
+
+.blue-bubble img {
+    width: 8.5%;
+    height: 20%;
+    animation-name: blue-bubble;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-timing-function: linear;
+}
+
+@keyframes black-bubble {
+    0% {
+        transform: translate(100px, 0px);
+    }
+    10% {
+        transform: translate(200px, 500px);
+    }
+    20% {
+        transform: translate(300px, 0px) ;
+    }
+    30% {
+        transform: translate(800px, 500px) ;
+    }
+    40% {
+        transform: translate(1000px, 0px) ;
+    }
+    60% {
+        transform: translate(1350px, 500px) ;
+    }
+    70% {
+        transform: translate(1000px, 0px) ;
+    }
+    80% {
+        transform: translate(200px, 500px);
+    }
+    85% {
+        transform: translate(-50px, 400px);
+    }
+    100% {
+        transform: translate(100px, 0px);
+    }
+}
+
+
+.chat-link:hover {
+    animation-name: chat-link;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes chat-link {
+    0% {
+        box-shadow:
+        0 0 2px 2px red;
+    }
+    10% {
+        box-shadow:
+        0 0 2px 2px orange;
+    }
+    20% {
+        box-shadow:
+        0 0 2px 2px yellow;
+    }
+    35% {
+        box-shadow:
+        2px 2px 2px 2px greenyellow;
+    }
+    40% {
+        box-shadow:
+        0 0 2px 2px #36cc00;
+    }
+    50% {
+        box-shadow:
+        0 0 2px 2px blue;
+    }
+    60% {
+        box-shadow:
+        0 0 2px 2px blueviolet;
+    }
+    70% {
+        box-shadow:
+        0 0 2px 2px purple;
+    }
+    80% {
+        box-shadow:
+        0 0 2px 2px magenta;
+    }
+    90% {
+        box-shadow:
+        0 0 2px 2px maroon;
+    }
+    100% {
+        box-shadow:
+        0 0 2px 2px red;
+    }
+
+}
+
+
+
+/* sound on fun page */
+
+#soundbar {
+    display: none
+}
+
+.sound-off {
+    width: 4%;
+    height: 8%;
+    float: right;
+    margin-top:-8%;
+}
+
+/* game instructions paragraph */
+
+.game-instructions {
+    margin-left: 2%;
+}
+
+.game-instructions p{
+    color: #5b6574;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.game-instructions a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* bell image */
+
+.myBell {
+    height: 150px;
+    width: 150px;
+    transition: width 1s, height 1s;
+    position: center;
+    margin-left: 700px;
+    cursor: pointer;
+}
+
+.myBell:hover {
+    height: 170px;
+    width: 170px;
+}
+
+.bell-text img {
+    height: 20px;
+    width: 70px;
+    margin-top: -5%;
+    margin-left: 60%;
+    stroke: white;
+    stroke-width: 5;
+}
+
+.text-box p {
+    font-size: 35px;
+    margin-top: -7%;
+    margin-left: 65%;
+    color: white;
+    font-style: bold;
+    stroke: white;
+    stroke-width: 5;
+    font-family: 'Mansalva', cursive;
+    overflow: hidden;
+}
+
+.bell-text {
+    opacity: 0;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+}
+
+.bell-text:hover {
+    opacity: 0.8;
+}
+
+/* div on Fun Page */
+
+#myDiv {
+    padding-top: 20%;
+    font-family: 'Vollkorn', serif;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    opacity: 0.1;
+    transition: opacity 3s;
+
+}
+
+#myDiv:hover {
+
+    opacity: 1;
+}
+
+
+
+
+/* register AND login page css */
+
+.login-register-body {
+    background-color: #36cc00;
+    animation-name: login-background;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes login-background {
+    0% {
+        background-color: #36cc00;
+    }
+
+    10% {
+        background-color: greenyellow
+    }
+
+    20% {
+        background-color: yellow
+    }
+
+    30% {
+        background-color: orange
+    }
+
+    40% {
+        background-color: red
+    }
+
+    50% {
+        background-color: magenta
+    }
+
+    70% {
+        background-color: blueviolet
+    }
+
+    80% {
+        background-color: blue
+    }
+
+    90% {
+        background-color: grey
+    }
+
+    100% {
+        background-color: #36cc00
+    }
+}
+
+
+.register {
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    /*code that makes the form look like a box */
+    margin: 100px auto;
+}
+
+.register h1 {
+    text-align: center;
+    color: #5b6574;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
+}
+
+.register form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.register form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #08f700;
+    color: #ffffff;
+}
+
+.register form input[type="password"],
+.register form input[type="text"],
+.register form input[type="email"] {
+    width: 310px;
+    height: 50px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+.register form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #08f700;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+
+.register form input[type="submit"]:hover {
+    background-color: #36cc00;
+    transition: background-color 0.2s;
+}
+
+.register a {
+    color: #08f700;
+}
+
+/* --------CSS for the first page once the user is athenticated---------- */
+
+.navtop {
+    background-color: #f7b100;
+    height: 60px;
+    width: 100%;
+    border: 0;
+}
+
+.navtop div {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    /*width of the nav bar */
+    height: 100%;
+}
+
+.navtop div h1,
+.navtop div a {
+    display: inline-flex;
+    align-items: center;
+}
+
+.navtop div h1 {
+    flex: 1;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-weight: normal;
+}
+
+.navtop div a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navtop div a:hover {
+    color: #5b6574;
+}
+
+.navtop div a i {
+    padding: 2px 8px 0 0;
+}
+
+
+body.loggedin {
+    background-color: #f8f9fb;
+}
+
+.content {
+    width: 1000px;
+    /*width of the whole page */
+    margin: 0 auto;
+}
+
+.content h2 {
+    margin: 0;
+    padding: 25px 0;
+    font-size: 22px;
+    border-bottom: 1px solid #e0e0e3;
+    color: #4a536e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.content h3 {
+    font-size: 20px;
+    color: #5b6574;
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+}
+
+.content>p,
+.content>div {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    margin: 25px 0;
+    padding: 25px;
+    background-color: #fff;
+}
+
+.content>p table td,
+.content>div table td {
+    padding: 5px;
+}
+
+.content>p table td:first-child,
+.content>div table td:first-child {
+    font-weight: bold;
+    color: #4a536e;
+    padding-right: 15px;
+}
+
+.content>div p {
+    padding: 5px;
+    margin: 0 0 10px 0;
+}
+
+.content>p a {
+    color: #5b6574;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* CLOCK CANVAS */
+
+.clock {
+    margin-left: 200px;
+}
+
+
+/* STYLE FOR CALENDAR.PHP PAGE */
+.table-table {
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 80px;
+}
+
+/* STYLE FOR EXAMPLE.PHP PAGE */
+
+
+/*.navtop div h1,
+.navtop div a {
+    display: inline-flex;
+    align-items: center;
+}*/
+
+/*.navtop div h1 {
+    flex: 1;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: #ebedee;
+    font-weight: normal;
+}*/
+
+/*.navtop div a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}*/
+
+/*.navtop div a i {
+    padding: 2px 8px 0 0;
+}*/
+
+
+
+
+
+/* STYLE FOR CALENDAR-TWO PAGE */
+
+.calendar {
+    display: flex;
+    flex-flow: column;
+}
+
+.calendar .header .month-year {
+    font-size: 20px;
+    font-weight: bold;
+    color: #636e73;
+    padding: 20px 0;
+}
+
+.calendar .days {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.calendar .days .day_name {
+    width: calc(100% / 7);
+    border-right: 1px solid #2c7aca;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: #818589;
+    color: #fff;
+    background-color: #448cd6;
+}
+
+.calendar .days .day_name:nth-child(7) {
+    border: none;
+}
+
+.calendar .days .day_num {
+    display: flex;
+    flex-flow: column;
+    width: calc(100% / 7);
+    border-right: 1px solid #e6e9ea;
+    border-bottom: 1px solid #e6e9ea;
+    padding: 15px;
+    font-weight: bold;
+    color: #7c878d;
+    cursor: pointer;
+    min-height: 100px;
+}
+
+.calendar .days .day_num span {
+    display: inline-flex;
+    width: 30px;
+    font-size: 14px;
+}
+
+.calendar .days .day_num .event {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 3px 6px;
+    border-radius: 4px;
+    background-color: #f7c30d;
+    color: #fff;
+    word-wrap: break-word;
+}
+
+.calendar .days .day_num .event.green {
+    background-color: #51ce57;
+}
+
+.calendar .days .day_num .event.blue {
+    background-color: #518fce;
+}
+
+.calendar .days .day_num .event.red {
+    background-color: #ce5151;
+}
+
+.calendar .days .day_num:nth-child(7n+1) {
+    border-left: 1px solid #e6e9ea;
+}
+
+.calendar .days .day_num:hover {
+    background-color: #fdfdfd;
+}
+
+.calendar .days .day_num.ignore {
+    background-color: #fdfdfd;
+    color: #ced2d4;
+    cursor: inherit;
+}
+
+.calendar .days .day_num.selected {
+    background-color: #f1f2f3;
+    cursor: inherit;
+}
